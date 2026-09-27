@@ -272,41 +272,46 @@
       </div>
       <div class="meta">Jul 2026 — Present<br>Undergraduate Researcher</div>
     </div>
-    <div class="split">
+    <div class="split reverse">
+      <div class="media">
+        <video autoplay loop muted playsinline>
+          <source src="assets/bai-tensile-tester-demo.mp4" type="video/mp4">
+        </video>
+        <div class="caption">Original 3D-printed prototype, pulling a test sample on two axes</div>
+      </div>
       <div class="text">
         <p>Converting a 3D-printed prototype tensile tester into a fully machined aluminum assembly, built to survive real test loads instead of just holding together for a demo.</p>
-        <p>The first gripper joint I built passed initial checks, then toppled under load — a center-of-gravity and moment problem I hadn't accounted for. I used SolidWorks Motion Study to find where it was actually failing, then evaluated three redesigns (dovetail, T-slot, and a modified pin joint) against machining limits, cost, and size. The dovetail below was one of the three — ultimately dropped once its feature sizes turned out to be impractical to machine reliably at this scale.</p>
+        <p>The first gripper joint I built passed initial checks, then toppled under load — a center-of-gravity and moment problem I hadn't accounted for. I used SolidWorks Motion Study to find where it was actually failing, then evaluated three redesigns (dovetail, T-slot, and a modified pin joint) against machining limits, cost, and size.</p>
+        <p>After consulting two senior machinists on feasibility, cost, and size, I moved forward with a modified pin joint integrated into the tester's sliding gripper assembly and linear guide rails. The machine-shop-ready drawings went out toleranced to ±0.005", and the first machined aluminum components are back from the shop.</p>
         <div class="spec-row">
           <div class="spec"><span class="val">±0.005"</span><span class="lbl">toleranced critical dims</span></div>
           <div class="spec"><span class="val">3</span><span class="lbl">redesigns evaluated</span></div>
           <div class="spec"><span class="val">2</span><span class="lbl">machinists consulted</span></div>
         </div>
       </div>
-      <div class="media">
-        <video autoplay loop muted playsinline>
-          <source src="assets/bai-tensile-tester-demo.mp4" type="video/mp4">
-        </video>
-        <div class="caption">Original 3D-printed prototype, pulling a test sample on two axes</div>
+    </div>
+
+    <div class="media-grid" style="margin-top:56px;">
+      <div>
         <img src="assets/bai-dovetail-cad.png" alt="CAD isometric view of dovetail gripper joint redesign candidate">
         <div class="caption">Redesign candidate: dovetail joint — evaluated, not selected</div>
+      </div>
+      <div>
         <img src="assets/bai-dovetail-views.png" alt="Orthographic drawing views of dovetail joint design">
         <div class="caption">Dovetail design, drawing views</div>
       </div>
-    </div>
-
-    <div class="split reverse" style="margin-top:64px;">
-      <div class="media">
+      <div>
         <img src="assets/bai-assembly-cad.png" alt="CAD assembly showing modified pin joint gripper mounted on linear guide rails">
-        <div class="caption">Selected design (modified pin joint) in full assembly context</div>
+        <div class="caption">Selected design (modified pin joint), full assembly context</div>
+      </div>
+      <div>
         <img src="assets/bai-pin-joint-views.png" alt="Orthographic drawing views of the selected pin joint design">
         <div class="caption">Drawing views, selected design</div>
       </div>
-      <div class="text">
-        <p>After consulting two senior machinists on feasibility, cost, and size constraints, I moved forward with a modified pin joint design integrated into the tester's sliding gripper assembly and linear guide rails.</p>
-        <p>The machine-shop-ready drawings went out with critical dimensions toleranced to ±0.005", and the first machined aluminum components are back from the shop.</p>
-        <img src="assets/bai-machined-parts.jpg" alt="Three machined aluminum gripper components on a wood table" style="margin-top:8px;">
-        <div class="caption">Machined aluminum components, fresh off the mill</div>
-      </div>
+    </div>
+    <div style="margin-top:14px;">
+      <img src="assets/bai-machined-parts.jpg" alt="Three machined aluminum gripper components on a wood table">
+      <div class="caption">Machined aluminum components, fresh off the mill</div>
     </div>
   </section>
 
